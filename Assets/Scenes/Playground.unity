@@ -1918,7 +1918,7 @@ MonoBehaviour:
     MaxStm: 1
     RecoveryRate: 1
   Speed: 12
-  JumpForce: 1
+  JumpForce: 0.4
   _dodgeDuration: 0.1
 --- !u!4 &665563217
 Transform:
@@ -1990,7 +1990,7 @@ MonoBehaviour:
   AirSpeedBuff: 0.6
   _jumpCount: 1
   _jumping: 0
-  Gravity: -2
+  Gravity: -0.98
   Level:
     serializedVersion: 2
     m_Bits: 512
@@ -2032,6 +2032,7 @@ GameObject:
   - component: {fileID: 681222587}
   - component: {fileID: 681222589}
   - component: {fileID: 681222588}
+  - component: {fileID: 681222590}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -2099,6 +2100,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681222586}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &681222590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681222586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f2d8c2a205985419a1ceeb96ae4064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxBullets: 6
+  maxDistance: 100
+  mask:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!43 &735165202
 Mesh:
   m_ObjectHideFlags: 0

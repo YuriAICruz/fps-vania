@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a373cf00dc6ad46af7ede24d48d004, type: 3}
+  m_Name: InputData
+  m_EditorClassIdentifier: 
+  Inputs:
+  - hint: Interact
+    Combo:
+    - input: 16
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 2
+  - hint: Pause
+    Combo:
+    - input: 512
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 3
+  - hint: Jump
+    Combo:
+    - input: 2
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 4
+  - hint: Dodge
+    Combo:
+    - input: 0
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 5
+  - hint: Attack
+    Combo:
+    - input: 64
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 10
+  - hint: AttackSeq
+    Combo:
+    - input: 256
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 11
+  InputBinder:
+    key: 02000000040000000800000010000000200000004000000041000000800000000001000001010000000200000004000000080000001000000020000000400000
+    value: 20000000000000000000000072000000650000006300000016010000710000007a000000170100000d0000001b00000011010000120100001401000013010000

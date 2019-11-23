@@ -1,0 +1,18 @@
+[submodule "Packages/Input"]
+	path = Packages/Input
+	url = git@github.com:YuriAICruz/Unity-InputManager.git
+[submodule "Packages/json"]
+	path = Packages/json
+	url = git@gitlab.com:yuriaicruz/jsonNet.git
+[submodule "Packages/Acting"]
+	path = Packages/Acting
+	url = git@github.com:YuriAICruz/Unity-Acting.git
+[submodule "Packages/Physics"]
+	path = Packages/Physics
+	url = git@github.com:YuriAICruz/Unity-Physics.git
+[submodule "Packages/Inventory"]
+	path = Packages/Inventory
+	url = git@github.com:YuriAICruz/Unity-Inventory.git
+[submodule "Packages/CameraMan"]
+	path = Packages/CameraMan
+	url = git@github.com:YuriAICruz/Unity-CameraManagement.git

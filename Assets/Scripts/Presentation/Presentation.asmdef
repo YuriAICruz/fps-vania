@@ -1,0 +1,14 @@
+{
+    "name": "Presentation",
+    "references": [
+        "GUID:8e7df043861743e42b5a86503c172534"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
